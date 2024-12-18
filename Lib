@@ -469,7 +469,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	local UIHidden = false
 
 	WindowConfig = WindowConfig or {}
-	WindowConfig.Name = "SILENT - RIVALS | FREE | discord.gg/silenthub"
+	WindowConfig.Name = WindowConfig.Name or "SILENT - RIVALS | FREE | discord.gg/silenthub"
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
 	WindowConfig.SaveConfig = WindowConfig.SaveConfig or false
 	WindowConfig.HidePremium = WindowConfig.HidePremium or false
